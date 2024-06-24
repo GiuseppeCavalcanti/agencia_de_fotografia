@@ -1,0 +1,282 @@
+/*section global*/
+/**section {
+
+    
+}*/
+
+/*principal*/
+
+#principal {
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+
+    background-color: var(--darckred);
+
+}
+
+
+
+#titulo h1 {
+
+    font-size: 2.5em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.16);
+    color: var(--light);
+    padding: 0px;
+    margin-top: 260px;
+    text-align: center;
+    height: 10%;
+    width: 100%;
+
+}
+
+#titulo p {
+
+    font-size: 1.2em;
+    font-style: italic;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.16);
+    color: var(--light);
+    padding: 0px;
+    margin-top: 0px;
+    text-align: center;
+    height: 50%;
+    width: 100%;
+
+}
+
+
+
+#principal img {
+
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+/*Sobre*/
+
+#sobre {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--laranja);
+    height: 534px;
+
+}
+
+#sobreimg {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+#sobre p {
+    line-height: 2em;
+}
+
+#sobretxt {
+
+    color: var(--light);
+    margin-top: 200px;
+    text-align: center;
+
+
+
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.10);
+
+}
+
+/*Casamentos*/
+
+#casamento {
+    display: grid;
+
+
+    background: var(--darckred);
+}
+
+#casimgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+#casamento img {
+
+    width: 100%;
+
+}
+
+#casamento h2 {
+    color: var(--light);
+    text-align: center;
+    font-size: 1.5em;
+    padding: 30px;
+    height: 40px;
+
+}
+
+#casamento p {
+    color: var(--light);
+}
+
+.casamentoimg {
+    margin: 10px;
+
+    text-align: center;
+}
+
+/*Noivados*/
+
+#noivado {
+    /*id da section Noivados*/
+    display: grid;
+    text-align: center;
+    background-color: var(--laranja);
+
+
+}
+
+#noivado h2 {
+    color: var(--light);
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 30px;
+    height: 40px;
+}
+
+#noivado p {
+
+    color: var(--light);
+
+}
+
+#noivado_imgs {
+    /*id da div de fotos de noivados*/
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+
+
+
+}
+
+#noivado img {
+    width: 90%;
+    height: 80%;
+    object-fit: cover;
+
+
+}
+
+/*Retratos*/
+
+#retratos {
+    display: grid;
+    text-align: center;
+    background-color: var(--darckred);
+}
+
+#retratos h2 {
+    color: var(--light);
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 30px;
+    height: 40px;
+}
+
+#retratos p {
+
+    color: var(--light);
+}
+
+#retratos img {
+
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+#retrato_imgs {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*Detalhes*/
+
+#detalhes {
+    display: grid;
+    text-align: center;
+    background-color: var(--laranja);
+}
+
+#detalhes h2 {
+    color: var(--light);
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 30px;
+    height: 40px;
+}
+
+#detalhes p {
+
+    color: var(--light);
+}
+
+#detalhes_img {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#detalhes img {
+    margin: 10px;
+    width: 90%;
+    height: 90%;
+}
+
+/*Equipe*/
+
+#equipe {
+
+    display: grid;
+    text-align: center;
+    background-color: var(--darckred);
+}
+
+#equipe h3 {
+
+    color: var(--light);
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 30px;
+    height: 40px;
+}
+
+#equipe p {
+    color: var(--light);
+
+}
+
+#fotografos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#equipe img {
+
+    width: 90%;
+    height: 90%;
+    margin: 10px;
+    object-fit: cover;
+}

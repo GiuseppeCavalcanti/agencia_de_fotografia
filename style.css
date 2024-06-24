@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@import "main.css";
+@import "header.css";
+@import"contatos.css";
+@import"portifolio.css";
+* {
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+/*Variaveis*/
+
+:root {
+
+    /*backgrand haeder e footer*/
+    --darck: #222022;
+    /*cor text*/
+    --light: #ffffff;
+
+    /*bg section*/
+    --darckred: #420206;
+    --laranja: #a65f37;
+
+    /*reserva*/
+    --vermelho: #8c0410;
+    --lightred: #A60522;
+    --bege: #d9bba9;
+    --cinza: #c9bdb9;
+}
+
+
+
+footer {
+
+
+    background-color: var(--darck);
+    height: 40px;
+    text-align: center;
+    color: var(--light);
+}
+
+footer p {
+
+    padding: 10px;
+}
+
+footer a{
+    color: var(--light);
+    text-decoration: none;
+}

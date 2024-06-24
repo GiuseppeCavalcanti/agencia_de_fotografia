@@ -1,0 +1,128 @@
+
+/*Primeira imagem do porte folio, Imagem Destaque*/
+#imgprincipal{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 630px;
+}
+
+
+
+#imgprincipal picture img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*Casal 1*/
+
+
+
+#casal1{
+    display: grid;
+    gap: 5px;
+    margin: 5px;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+
+}
+#casal1 picture{
+overflow: hidden;
+
+}
+
+
+#casal1 picture:first-child{
+    grid-row: 1 / 3;
+
+}
+#casal1 picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: scale 1.4s ;
+ }
+
+ #casal1 picture:hover img{
+
+    scale: 1.2;
+ }
+
+/*segunda imagem destaque*/
+
+#destaque2{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+}
+
+#destaque2 img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+ /*noivas*/
+
+ #noivas{
+
+
+    display: grid;
+    gap: 5px;
+    margin: 5px;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr ;
+ }
+
+ #noivas picture img{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+
+ }
+
+ /*caasal 2*/
+
+ #casal2{
+    display: grid;
+    gap: 5px;
+    margin: 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+#casal2 picture:first-child{
+    grid-row: 1 / 4;
+
+}
+#casal2 picture img{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+ }
+
+ /*terceira imagem destaque*/
+
+ #destaque3{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr;
+ }
+
+ #destaque3 picture img{
+
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+ }
